@@ -1,0 +1,18 @@
+
+
+We zijn op zoek naar de som van row 1000, in python is dit een drama... en dan kom je achter dit:
+
+
+ZIe hier de informatie over de sum van een row in die triangle:
+http://ptri1.tripod.com
+
+2^n waarbij n het nummer van de row is... 
+
+Goed, wolfram alpha:
+
+scientific notation of 2^1000 to precision 5
+
+De precision was even tweaken.. et voila.
+
+Ter referentie heb ik 6.py toegevoegd, ik dacht hem "wel eventjes in python" te doen. Resultaat lijkt correct, maar ik ben te lui om het naar scientific notation om te zetten.
+De code die dat doet (utgecomment) veroorzaakt een overflow ;).
