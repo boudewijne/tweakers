@@ -9,6 +9,8 @@ MAX= 1000000000000000000
 ctr=0
 
 def expandFibArray(a, max):
+    if len(a)<2:
+        a=[0,1]
     new_elem = a[-1]+a[-2]
     if new_elem < max:
         return expandFibArray(a+[new_elem],max)
@@ -25,9 +27,7 @@ def isInt(n):
         return True
     return False
     
-a = [0,1]
-
-a= (expandFibArray(a,MAX))
+a= (expandFibArray([],MAX))
 added_numbers = map(telcijfersop,a)
 roots = map(math.sqrt,added_numbers)
 int_roots = filter(isInt,roots)
