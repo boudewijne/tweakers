@@ -6,7 +6,6 @@
 import math
 
 MAX= 1000000000000000000
-ctr=0
 
 def expandFibArray(a, max):
     if len(a)<2:
@@ -27,12 +26,13 @@ def isInt(n):
         return True
     return False
     
-a= (expandFibArray([],MAX))
-added_numbers = map(telcijfersop,a)
+fibonacci_list= (expandFibArray([],MAX))
+added_numbers = map(telcijfersop,fibonacci_list)
 roots = map(math.sqrt,added_numbers)
 int_roots = filter(isInt,roots)
 
-print (a)
-print (added_numbers)
-print (roots)
-print (int_roots)
+#print (fibonacci_list)
+#print (added_numbers)
+#print (roots)
+#print (int_roots)
+print (len(set(int_roots))+1)
