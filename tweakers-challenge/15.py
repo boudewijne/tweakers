@@ -27,6 +27,6 @@ for i in range(1,6):
     results+= set(itertools.product(coins,repeat=i))    
 # filter alle invalide combinaties uit (dwz: teveel munten)
 results=list(filter(setIsValid,results))
-# en tel alle bedragen bij elkaar op en stop ze in een set zodat ze uniek zijn....
+# en tel alle bedragen bij elkaar op en stop ze in een set zodat ze uniek zijn....    
 results=list(set(map(lambda i: round(sum(i),2),results)))
 print(len(results))
