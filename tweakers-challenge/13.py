@@ -3,8 +3,8 @@
 # *Op het moment van de besmetting van patient zero zijn er 7.000.000.000 mensen niet besmet.
 # *Elke zombie valt 2 mensen aan per uur tussen 8:00 en 22:00. In de nachtelijke uren is dit er 1 per uur.
 # *Elk uur raakt per 5 aanvallen afgerond naar beneden gemiddeld 1 lichaam van een gezond persoon te zwaar beschadigd om opnieuw op te staan. Deze persoon kan dus geen anderen infecteren.
-# *Vanaf 8:00 op de eerste dag heeft de mensheid door wat er aan de hand is en weet vanaf dan elk uur per drie aanvallen een aanval af te slaan en daarbij aan de zombie te ontsnappen.
 # *Omdat we uitgaan van gemiddelden, beginnen we elk uur opnieuw met het tellen van beschadigde lichamen en afgeweerde zombies.
+# *Vanaf 8:00 op de eerste dag heeft de mensheid door wat er aan de hand is en weet vanaf dan elk uur per drie aanvallen een aanval af te slaan en daarbij aan de zombie te ontsnappen.
 # 
 #Na hoeveel uren is het menselijk ras uitgestorven?
 #
